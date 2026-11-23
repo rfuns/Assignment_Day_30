@@ -1,0 +1,19 @@
+.step { font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+.quote { margin: 0; font-size: 1.15rem; line-height: 1.6; font-style: italic; }
+.options { display: grid; gap: 0.5rem; grid-template-columns: 1fr; }
+.option {
+  padding: 0.7rem 1rem;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.option:hover { border-color: var(--primary); background: var(--primary-soft); }
+.correct, .correct:hover { background: #dcfce7; border-color: var(--success); }
+.wrong, .wrong:hover { background: #fee2e2; border-color: var(--danger); }
+.dim { opacity: 0.55; }
+.score { font-size: 2.5rem; font-weight: 800; color: var(--primary); margin: 0; }
+@media (min-width: 768px) { .options { grid-template-columns: 1fr 1fr; } }

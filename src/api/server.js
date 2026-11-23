@@ -1,5 +1,5 @@
 // Mock REST API di sisi klien. Meniru perilaku DummyJSON + endpoint auth bergaya ReqRes.
-import { getDb, saveDb } from './db'
+import { getDb, saveDb } from './db.js'
 
 export class ApiError extends Error {
   constructor(status, message) {

@@ -1,0 +1,6 @@
+.wrap { padding: 2rem 0; }
+.title { margin: 0; }
+.form { display: flex; flex-direction: column; gap: 0.9rem; }
+.hint { margin: 0; font-size: 0.85rem; color: var(--muted); }
+.hint a { color: var(--primary); font-weight: 600; }
+.hint code { background: var(--primary-soft); padding: 0.05rem 0.3rem; border-radius: 4px; }

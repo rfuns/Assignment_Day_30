@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--warning);
+  border-radius: var(--radius-sm);
+}
+.done { border-left-color: var(--success); }
+.done .text { text-decoration: line-through; color: var(--muted); }
+.label { display: flex; align-items: flex-start; gap: 0.6rem; flex: 1 1 200px; min-width: 0; cursor: pointer; }
+.label input { margin-top: 0.25rem; }
+.text { overflow-wrap: anywhere; }

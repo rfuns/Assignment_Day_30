@@ -1,0 +1,21 @@
+.hero {
+  background: linear-gradient(135deg, var(--primary), #7c3aed);
+  color: #fff;
+  padding: 2.5rem 0;
+}
+.heroTitle { margin: 0 0 0.5rem; font-size: clamp(1.6rem, 5vw, 2.6rem); line-height: 1.2; }
+.heroText { margin: 0; max-width: 620px; opacity: 0.92; }
+.search { margin-bottom: 1.25rem; max-width: 480px; }
+.cardTitle { margin: 0; font-size: 1.05rem; text-transform: capitalize; }
+.excerpt {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.meta { display: flex; gap: 1rem; margin-top: auto; font-size: 0.85rem; color: var(--muted); }
