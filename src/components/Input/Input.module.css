@@ -1,0 +1,14 @@
+.field { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.label { font-size: 0.85rem; font-weight: 600; color: var(--text); }
+.input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+.invalid { border-color: var(--danger); }
+.error { font-size: 0.8rem; color: var(--danger); }

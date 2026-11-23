@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--primary);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.padded { padding: 1.1rem; }
+.clickable { transition: transform 0.15s, box-shadow 0.15s; }
+.clickable:hover { transform: translateY(-3px); box-shadow: var(--shadow); }

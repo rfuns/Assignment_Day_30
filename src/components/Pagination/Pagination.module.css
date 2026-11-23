@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+.pages { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.25rem; }
+.gap { padding: 0 0.3rem; color: var(--muted); align-self: center; }
